@@ -46,3 +46,5 @@ src/FileCabinet/SuiteScripts/meli/common
 src/FileCabinet/SuiteScripts/meli/controllers
 src/FileCabinet/SuiteScripts/meli/models
 src/FileCabinet/SuiteScripts/meli/scripts
+
+.gitignore

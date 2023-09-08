@@ -1,0 +1,30 @@
+<mapreducescript scriptid="customscript_meli_mr_publication">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MELI_MR_PUBLICATION</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/meli/mer_mr_get_publicaciones.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_meli_mr_publication">
+      <buffersize>1</buffersize>
+      <concurrencylimit>2</concurrencylimit>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <queueallstagesatonce>T</queueallstagesatonce>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>MELI_MR_PUBLICATION</title>
+      <yieldaftermins>60</yieldaftermins>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat>PT1H</repeat>
+          <startdate>2023-05-31</startdate>
+          <starttime>17:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</mapreducescript>

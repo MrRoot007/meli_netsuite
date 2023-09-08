@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_crml_site">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>CRML - Meli Site</name>
+  <customvalues>
+    <customvalue scriptid="val_197810_8628810_sb1_257">
+      <isinactive>F</isinactive>
+      <value>MLM</value>
+    </customvalue>
+    <customvalue scriptid="val_197811_8628810_sb1_932">
+      <isinactive>F</isinactive>
+      <value>MLA</value>
+    </customvalue>
+    <customvalue scriptid="val_197812_8628810_sb1_625">
+      <isinactive>F</isinactive>
+      <value>MLB</value>
+    </customvalue>
+  </customvalues>
+</customlist>

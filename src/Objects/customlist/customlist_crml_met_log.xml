@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_crml_met_log">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>CRML - Método Logístico</name>
+  <customvalues>
+    <customvalue scriptid="val_197578_8628810_sb1_820">
+      <isinactive>F</isinactive>
+      <value>xd_drop_off</value>
+    </customvalue>
+    <customvalue scriptid="val_197579_8628810_sb1_447">
+      <isinactive>F</isinactive>
+      <value>cross_docking</value>
+    </customvalue>
+    <customvalue scriptid="val_197580_8628810_sb1_389">
+      <isinactive>F</isinactive>
+      <value>self_service</value>
+    </customvalue>
+    <customvalue scriptid="val_197581_8628810_sb1_475">
+      <isinactive>F</isinactive>
+      <value>fulfillment</value>
+    </customvalue>
+    <customvalue scriptid="val_197779_8628810_sb1_161">
+      <isinactive>F</isinactive>
+      <value>not_specified</value>
+    </customvalue>
+  </customvalues>
+</customlist>

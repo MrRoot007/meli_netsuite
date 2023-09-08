@@ -1,0 +1,29 @@
+<mapreducescript scriptid="customscript_meli_mr_payments">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>MELI_MR_PAYMENTS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/meli/scripts/map_reduce/mer_mr_payments.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_meli_mr_payments">
+      <buffersize>1</buffersize>
+      <concurrencylimit>1</concurrencylimit>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <queueallstagesatonce>T</queueallstagesatonce>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>NOTSCHEDULED</status>
+      <title>MELI_MR_PAYMENTS</title>
+      <yieldaftermins>60</yieldaftermins>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-07-01</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</mapreducescript>

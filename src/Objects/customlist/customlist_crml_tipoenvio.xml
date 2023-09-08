@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_crml_tipoenvio">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>CRML - Tipo de Envio</name>
+  <customvalues>
+    <customvalue scriptid="val_197568_8628810_sb1_263">
+      <isinactive>F</isinactive>
+      <value>me1</value>
+    </customvalue>
+    <customvalue scriptid="val_197569_8628810_sb1_246">
+      <isinactive>F</isinactive>
+      <value>me2</value>
+    </customvalue>
+    <customvalue scriptid="val_197778_8628810_sb1_354">
+      <isinactive>F</isinactive>
+      <value>not_specified</value>
+    </customvalue>
+  </customvalues>
+</customlist>

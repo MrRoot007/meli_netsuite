@@ -1,0 +1,26 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>meli_netsuite</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="false">ADVRECEIVING</feature>
+      <feature required="false">MULTILOCINVT</feature>
+      <feature required="false">CRM</feature>
+      <feature required="false">INVENTORY</feature>
+      <feature required="false">CUSTOMTRANSACTIONS</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="false">PAYABLES</feature>
+      <feature required="false">PERIODENDJOURNALENTRIES</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">JOBS</feature>
+      <feature required="false">OPPORTUNITIES</feature>
+      <feature required="false">ADVANCEDJOBS</feature>
+      <feature required="false">ACCOUNTING</feature>
+    </features>
+    <files>
+      <file>/SuiteScripts/meli/mer_mr_get_publicaciones.js</file>
+      <!-- <file>/SuiteScripts/meli/scripts/map_reduce/mer_mr_get_orders.js</file> -->
+    </files>
+  </dependencies>
+</manifest>

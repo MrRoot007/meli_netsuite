@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_crml_tipo_pub">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>CRML - Tipo de Publicación</name>
+  <customvalues>
+    <customvalue scriptid="val_197662_8628810_sb1_226">
+      <isinactive>F</isinactive>
+      <value>Gratuita</value>
+    </customvalue>
+    <customvalue scriptid="val_197663_8628810_sb1_198">
+      <isinactive>F</isinactive>
+      <value>Premium</value>
+    </customvalue>
+  </customvalues>
+</customlist>

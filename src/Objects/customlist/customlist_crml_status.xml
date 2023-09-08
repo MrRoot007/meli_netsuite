@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_crml_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>CRML - Estado</name>
+  <customvalues>
+    <customvalue scriptid="val_197657_8628810_sb1_589">
+      <isinactive>F</isinactive>
+      <value>active</value>
+    </customvalue>
+    <customvalue scriptid="val_197658_8628810_sb1_343">
+      <isinactive>F</isinactive>
+      <value>paused</value>
+    </customvalue>
+    <customvalue scriptid="val_197659_8628810_sb1_208">
+      <isinactive>F</isinactive>
+      <value>finalized</value>
+    </customvalue>
+    <customvalue scriptid="val_197752_8628810_sb1_443">
+      <isinactive>F</isinactive>
+      <value>under_review</value>
+    </customvalue>
+    <customvalue scriptid="val_197798_8628810_sb1_731">
+      <isinactive>F</isinactive>
+      <value>closed</value>
+    </customvalue>
+  </customvalues>
+</customlist>
